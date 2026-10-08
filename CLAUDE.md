@@ -8,6 +8,7 @@ The student-facing template repository for a Python Programming course (SKEMA, M
 
 - `examples/<topic>/*.py`: small, commented, runnable scripts per course topic (strings, numbers, operators, conditions, loops, lists, dictionaries, functions, io, files, libraries, interfaces). Each ends with a `# What to remember` block; keep that convention when adding or editing examples.
 - `examples/files/sample_campaigns.csv`: deliberately messy (semicolon separator, decimal comma, unnamed empty column, a row with no impressions, a zero-conversion campaign). Don't "clean" it; see `examples/README_files_note.md`.
+- `exercices/<n.m>_<name>.py`: the student's graded work, one file per exercise. Each opens with a docstring brief (what the program must do, four "ANSWER THESE FIRST" questions to answer in comments, "what the AI cannot know", "check it yourself") followed by `# 1. In: / 2. Process: / 3. Out:` comment stubs and a `# Your code below` marker. The comments and decisions are the student's own deliverable: do not fill in the answers or write the full solution, only give hints within the tutor rules below. Note the folder is spelled `exercices` (French), whereas `.gitignore` excludes `exercises/` (the K2 briefs); don't conflate them.
 - `bonus/`: optional material (matplotlib/numpy), not graded.
 - `tutor.py`: the course AI tutor (see below).
 
